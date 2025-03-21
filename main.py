@@ -9,4 +9,5 @@ name=st.text_input("Please enter your name: ")
 if name:
 	st.write(f'hello , {name}!')
 	
-if st.file_uploader()
+if st.file_uploader('please upload a file:',type=['txt','csv']):
+	st.write('thanks for uploading a file!')
